@@ -7,7 +7,7 @@ const opts = {
   entryPoints: ["src/main.js"],
   bundle: true,
   format: "esm",
-  outfile: "dist/main.js",
+  outfile: "main.js",
   platform: "browser",
   target: "es2022",
   minify: false,
@@ -21,5 +21,5 @@ if (watch) {
   console.log("Watching for changes...");
 } else {
   await esbuild.build(opts);
-  console.log("Build complete → dist/main.js");
+  console.log("Build complete → main.js");
 }
