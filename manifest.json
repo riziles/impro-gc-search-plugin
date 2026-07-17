@@ -1,0 +1,8 @@
+{
+  "id": "chat-search",
+  "name": "Chat Search",
+  "version": "0.1.0",
+  "author": "Impro Contributor",
+  "description": "Pull and fuzzy-search group chat messages",
+  "permissions": {}
+}
